@@ -71,22 +71,15 @@ repositories:
     version: master
 #----------------------------------------------------------------------------
 # Libraries
-#    ¿Quizá se pueden poner grupos de librerias en un sólo repo?
 #----------------------------------------------------------------------------
   libraries/robot_process:
     type: git 
     url: https://github.com/aerostack/robot_process
     version: master
-  #----------------------------------------------------------------------------
-  # Agrupar estos dos en catkin?
-  #----------------------------------------------------------------------------
   libraries/catkin_simple:
     type: git
     url: https://github.com/aerostack/catkin_simple
     version: master
-  #----------------------------------------------------------------------------
-  # Agrupar estos dos en cvglib?
-  #----------------------------------------------------------------------------
   libraries/lib_cvgekf:
     type: git 
     url: https://github.com/aerostack/lib_cvgekf
@@ -106,8 +99,6 @@ repositories:
     
 #----------------------------------------------------------------------------
 # Deprecated
-#----------------------------------------------------------------------------
-# Agrupar en un único repositorio para crear nuevas versiones más reducidas?
 #----------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------
@@ -129,15 +120,5 @@ repositories:
     type: git 
     url: https://github.com/aerostack/dronemsgsros
     version: master
-#----------------------------------------------------------------------------
-# Deprecated libraries
-#----------------------------------------------------------------------------
 
 
-#----------------------------------------------------------------------------
-# Borrar?
-#----------------------------------------------------------------------------
-  deprecated/common/behavior_execution_controller:
-    type: git 
-    url: https://github.com/aerostack/behavior_execution_controller
-    version: master
