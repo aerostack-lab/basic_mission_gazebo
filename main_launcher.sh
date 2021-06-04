@@ -33,7 +33,7 @@ exec bash\"" \
 roslaunch quadrotor_motion_with_pid_control quadrotor_motion_with_pid_control.launch --wait \
     namespace:=drone$NUMID_DRONE \
     robot_config_path:=${APPLICATION_PATH}/configs/drone$NUMID_DRONE \
-    uav_mass:=0.7;
+    uav_mass:=0.75;
 exec bash\"" \
 `#---------------------------------------------------------------------------------------------` \
 `# Python Interpreter                                                                          ` \
@@ -91,3 +91,17 @@ gnome-terminal  \
 roslaunch alphanumeric_viewer alphanumeric_viewer.launch --wait \
     drone_id_namespace:=drone$NUMID_DRONE;
 exec bash\"" &
+
+sleep 15
+
+gnome-terminal  \
+`#---------------------------------------------------------------------------------------------` \
+`# Behavior Coordinator Loggr                                                                       ` \
+`#---------------------------------------------------------------------------------------------` \
+--tab --title "behavior_coordinator_logger"  --command "bash -c \"
+roslaunch behavior_coordinator_logger behavior_coordinator_logger.launch --wait \
+    drone_id_namespace:=drone$NUMID_DRONE;
+exec bash\"" &
+
+
+
