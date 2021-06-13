@@ -32,9 +32,9 @@ In order to execute this project, follow the steps below.
 
 The following video illustrates how to launch the project:
 
-[ ![Launch](https://i.ibb.co/6Jp3shp/basic-mission-launch-Moment.jpg)](https://youtu.be/D5i7wXEs7dM)
+[ ![Launch](https://i.ibb.co/6Jp3shp/basic-mission-launch-Moment.jpg)](https://www.youtube.com/watch?v=6Chp0AtCOI4)
 
 The following video shows the mission execution:
 
-[ ![Launch](https://i.ibb.co/K9rvDXN/basic-mission-gazebo-v2-Moment.jpg)](https://youtu.be/rW2DMaljw-A)
+[ ![Launch](https://i.ibb.co/K9rvDXN/basic-mission-gazebo-v2-Moment.jpg)](https://www.youtube.com/watch?v=sGyoiFIYZF0)
 
